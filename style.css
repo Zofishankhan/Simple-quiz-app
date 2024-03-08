@@ -21,6 +21,7 @@ html,body{
 }
 .box{
     width: 400px;
+    height: 80vh;
     background: white;
     border-radius: 10px;
 }
@@ -75,7 +76,16 @@ html,body{
     font-size: 14px;
     display: none;
 }
-.option:hover{
+.option:hover:not([disabled]){
     background-color: black;
     color: white;
+}
+.option:disabled{
+    cursor: no-drop;
+}
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    background: #ff9393;
 }
