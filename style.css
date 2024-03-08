@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to right top,#2f2235,#03191e)
+}
+.box{
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.header{
+    text-align: center;
+    padding: 2.5vh 0px;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 2vh;
+}
+.question{
+    margin-top: 10px;
+}
+.question h4{
+    font-size: 20px;
+    font-family: "Varela",sans-serif;
+    text-align: center;
+}
+.quiz{
+    width: 80%;
+    height: 50vh;
+    margin: 20px 40px;
+}
+.options{
+    max-width:100%;
+    min-height: 80%;
+    margin-top: 3vh;
+}
+.option{
+    width: 100%;
+    height: 8vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px 0px;
+    padding: 2.5vh 20px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.btn button{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 5vh;
+    background:rgb(4, 1, 21);
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+    display: none;
+}
+.option:hover{
+    background-color: black;
+    color: white;
+}
